@@ -30,6 +30,11 @@
 
   
   <style>
+    body {
+      min-width: 400px;
+      background-color: #eee;
+      font-family: 'Source Sans Pro';
+    }
     .header-image {
       background: #333366 {% if setting.image %}url("{{ setting.image.url }}"){% endif %};
       background-position: center 30%;
