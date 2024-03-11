@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-fb^^44@_i9$-tvaa6n-=^o*pth*cyo%w^*x4yb*3ng$ygpm&j*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['temirlan.pro', '127.0.0.1']
 CSRF_TRUSTED_ORIGINS = ['http://temirlan.pro', 'https://temirlan.pro']
