@@ -4,7 +4,7 @@ from django.conf import settings
 class Setting(models.Model):
 	tab_title = models.CharField(max_length=200, verbose_name='Имя во вкладке', default='Визитка')
 	title = models.CharField(max_length=200, verbose_name='Заголовок')
-	subtitle = models.CharField(max_length=200, verbose_name='Подзаголовок')
+	subtitle = models.CharField(max_length=200, null=True, blank=True, verbose_name='Подзаголовок')
 	description = models.CharField(max_length=200, null=True, blank=True, verbose_name='Описание')
 	contact1 = models.CharField(max_length=200, null=True, blank=True, verbose_name='Контакт 1')
 	contact2 = models.CharField(max_length=200, null=True, blank=True, verbose_name='Контакт 2')
