@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-fb^^44@_i9$-tvaa6n-=^o*pth*cyo%w^*x4yb*3ng$ygpm&j*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['temirlan.pro']
+CSRF_TRUSTED_ORIGINS = ['http://temirlan.pro', 'https://temirlan.pro']
 
 
 # Application definition
